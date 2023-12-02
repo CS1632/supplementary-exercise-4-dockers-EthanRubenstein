@@ -47,6 +47,7 @@ public class D3Test {
 
   @After
   public void tearDown() {
+    driver.close();
     driver.quit();
   }
   @Test
