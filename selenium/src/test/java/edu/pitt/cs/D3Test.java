@@ -27,9 +27,10 @@ import org.openqa.selenium.Keys;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL; 
+import org.openqa.selenium.chrome.ChromeOptions;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class ConnectTest {
+public class D3Test {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
